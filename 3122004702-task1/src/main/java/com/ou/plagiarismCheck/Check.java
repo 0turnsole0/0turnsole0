@@ -28,7 +28,7 @@ public class Check {
 
     // 生成单词频率映射
     static HashMap<String, Integer> generateWordsFrequency(String filePath) {
-        HashMap<String, Integer> wordFreq = new HashMap<>();
+        HashMap<String, Integer> wordFreq = new HashMap<String, Integer>();
 
         try {
             File file = new File(filePath);
